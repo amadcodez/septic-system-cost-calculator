@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tennessee Septic Requirements: Tank Size & Cost</title>
+<meta name="description" content="Septic requirements in Tennessee: 1,000 gallon minimum tank, 150 gpd per bedroom, permitting under Tennessee Rules Chapter 0400-48-01, local soil conditions and county rules.">
+<base href="/states/">
+<link rel="canonical" href="https://septicsystemcostcalculator.com/states/tn">
+<meta property="og:title" content="Tennessee Septic Requirements: Tank Size & Cost">
+<meta property="og:description" content="Septic requirements in Tennessee: 1,000 gallon minimum tank, 150 gpd per bedroom, permitting under Tennessee Rules Chapter 0400-48-01, local soil conditions and county rules.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#102A42">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-09QK62LXNY"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-09QK62LXNY');</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why do middle Tennessee lots fail on depth to rock?", "acceptedAnswer": {"@type": "Answer", "text": "Limestone sits close to the surface across much of the Nashville basin. The rules require a minimum depth of soil beneath the trench bottom for treatment, and a site with only 18 inches of soil over bedrock cannot provide it regardless of how the soil percs. Shallow-placed drip or LPP systems are sometimes the answer, and sometimes nothing works."}}, {"@type": "Question", "name": "Does Tennessee require a soil map check?", "acceptedAnswer": {"@type": "Answer", "text": "Field evaluation governs, but published soil survey data is used as a screening tool. A parcel mapped as having severe limitations is not automatically disqualified, but expect the field evaluation to confirm the problem more often than not."}}]}</script>
+</head>
+<body>
+<div class="util"><div class="shell">
+<span><b>All 50 states</b> covered</span>
+<span>Sizing from published state code</span>
+<span>Free quotes, no obligation</span>
+</div></div>
+<header class="masthead"><div class="shell">
+<a class="brand" href="../"><span class="mk"></span>Septic System<br>Cost Calculator</a>
+<button class="navtoggle" aria-label="Menu" aria-expanded="false" onclick="this.classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+<nav class="nav" id="nav">
+  <a href="../calculator/cost">Cost</a>
+  <a href="../calculator/replacement">Replacement</a>
+  <a href="../calculator/">Tank size</a>
+  <a href="../states/">States</a>
+  <a href="../guides/">Guides</a>
+  <a class="btn" href="../septic-installers-near-me">Get quotes</a>
+</nav></div></header>
+<div class="shell"><div class="crumb"><a href="../">Home</a> / <a href="../states/">States</a> / Tennessee</div></div>
+<section class="band"><div class="shell">
+  <div class="band-head"><p class="eyebrow">Tennessee · Tennessee Rules Chapter 0400-48-01</p>
+  <h1>Septic system requirements in Tennessee</h1>
+  <p>TDEC administers the program in most counties; a few counties operate their own delegated programs.</p></div>
+  <div class="grid g3" style="margin-bottom:34px">
+    <div class="card"><p class="kicker">Minimum tank</p><h3>1,000 gallons</h3><p>One to three bedroom dwelling.</p></div>
+    <div class="card"><p class="kicker">Design flow</p><h3>150 gpd per bedroom</h3><p>Held two days for settling.</p></div>
+    <div class="card"><p class="kicker">Cost index</p><h3>92% of baseline</h3><p>Regional labour and permits.</p></div>
+  </div>
+  <div class="tool">
+<div class="tool-head"><strong>Tank size calculator</strong><span>Step 1 of 1</span></div>
+<div class="tool-body">
+  <p class="err" id="e-tank"></p>
+  <div class="row">
+    <div class="field"><label for="state">State</label>
+      <select id="state" class="js-states" data-preset="tn"><option value="">Select a state</option></select>
+      <p class="hint">Sets the design flow and the legal minimum.</p></div>
+    <div class="field"><label for="beds">Bedrooms</label>
+      <div class="stepper"><button type="button" data-step="down" aria-label="Fewer bedrooms">−</button>
+      <input id="beds" type="number" value="3" min="1" max="8" inputmode="numeric">
+      <button type="button" data-step="up" aria-label="More bedrooms">+</button></div>
+      <p class="hint">Code sizes on bedrooms, not people.</p></div>
+  </div>
+  <div class="field"><label for="soil">Soil type</label>
+    <select id="soil" class="js-soils"></select>
+    <p class="hint">Used to size the matching drainfield. Unsure? Sandy loam is the common default.</p></div>
+  <div class="field">
+    <label><input type="checkbox" id="disposal" style="width:auto;margin-right:8px"> Kitchen garbage disposal</label>
+    <label style="margin-top:8px"><input type="checkbox" id="extras" style="width:auto;margin-right:8px"> Whirlpool tub or water softener discharge</label>
+  </div>
+  <button class="btn" id="go-tank" type="button">Calculate tank size</button>
+</div>
+<div class="spec" id="t-spec"><div class="spec-inner">
+  <div class="spec-top"><div class="figure" id="t-figure"></div></div>
+  <div class="spec-list" id="t-rows"></div>
+  <p class="note" id="t-note"></p>
+</div><form class="quote js-quote" action="https://formsubmit.co/bossdynamo61@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New septic lead — septicsystemcostcalculator.com">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="page_state" value="">
+<h3>Compare local installers</h3>
+<p>Send these numbers to licensed contractors near you and get quotes for a tank this size. Free, and no obligation to hire.</p>
+<div class="field" style="margin-bottom:14px"><label style="color:#fff">What do you need?</label>
+<select name="service" required>
+  <option value="">Select service type</option>
+  <option>New installation</option>
+  <option>Full system replacement</option>
+  <option>Tank or drainfield repair</option>
+  <option>Pumping / maintenance</option>
+  <option>Inspection (buying or selling)</option>
+</select></div>
+<div class="row">
+  <input type="text" name="name" placeholder="Full name" required aria-label="Full name">
+  <input type="tel" name="phone" placeholder="Phone (10-digit US)" required aria-label="Phone" inputmode="tel" pattern="\(?[2-9][0-9]{2}\)?[\-. ]?[0-9]{3}[\-. ]?[0-9]{4}" title="Enter a 10-digit US phone number, e.g. 555-123-4567" maxlength="14">
+</div>
+<div class="row">
+  <input type="email" name="email" placeholder="Email" required aria-label="Email">
+  <input type="text" name="zip" placeholder="ZIP code" required aria-label="ZIP code" pattern="[0-9]{5}">
+</div>
+<button class="btn" type="submit">Get free quotes</button>
+<p class="fine">Your details go to installers serving your ZIP code, and to no one else.</p>
+</form></div>
+</div>
+</div></section>
+
+<section class="band white"><div class="shell prose">
+  <h2>The ground you are actually building on</h2>
+  <p>Karst limestone through middle Tennessee with sinkholes and rapid groundwater movement, shale and sandstone on the Cumberland Plateau, and the west Tennessee coastal plain with loess and sandy soils.</p>
+
+  <h2>What gets installed in Tennessee</h2>
+  <p>Conventional trenches where soil depth allows. Low pressure pipe and drip distribution are used in shallow soils over rock. Middle Tennessee karst areas face significant restrictions.</p>
+
+  <h2>Tank size by bedroom count</h2>
+  <div class="scroll"><table class="tbl">
+    <tr><th>Dwelling</th><th>Design flow</th><th>Minimum tank</th><th>With disposal</th></tr><tr><td>1 bedroom</td><td>300 gpd</td><td><b>1,000 gal</b></td><td>1,250 gal</td></tr><tr><td>2 bedrooms</td><td>300 gpd</td><td><b>1,000 gal</b></td><td>1,250 gal</td></tr><tr><td>3 bedrooms</td><td>450 gpd</td><td><b>1,000 gal</b></td><td>1,250 gal</td></tr><tr><td>4 bedrooms</td><td>600 gpd</td><td><b>1,250 gal</b></td><td>1,500 gal</td></tr><tr><td>5 bedrooms</td><td>750 gpd</td><td><b>1,500 gal</b></td><td>1,750 gal</td></tr>
+  </table></div>
+
+  <h2>Getting a system permitted</h2>
+  <p>TDEC issues subsurface sewage disposal permits and certifies installers. Soil maps and field evaluation determine suitability, and sites over shallow limestone can fail on depth to rock even with acceptable percolation.</p>
+  <ol>
+    <li><b>Soil evaluation.</b> On the actual field location, before design. It decides what you are allowed to build.</li>
+    <li><b>Design and site plan.</b> Tank size, absorption area, and setbacks from wells, lines, water and foundations.</li>
+    <li><b>Permit application.</b> Submitted with the soil report. Allow weeks, more in the spring rush.</li>
+    <li><b>Installation.</b> By a licensed installer where Tennessee requires one.</li>
+    <li><b>Inspection before backfill.</b> Trenches must be seen open.</li>
+  </ol>
+
+  <h2>Counties where the local rules matter most</h2>
+  <p>The state sets a floor. These Tennessee counties are where the largest septic populations sit, and where local requirements most often exceed it.</p>
+  <div class="scroll"><table class="tbl">
+    <tr><th>County</th><th>What makes it different</th></tr><tr><td><b>Rutherford</b></td><td>Fast growth on shallow limestone</td></tr><tr><td><b>Williamson</b></td><td>High-value development with karst constraints</td></tr><tr><td><b>Wilson</b></td><td>Rapid growth east of Nashville</td></tr><tr><td><b>Knox</b></td><td>Knoxville area; ridge and valley terrain</td></tr><tr><td><b>Sumner</b></td><td>Growth north of Nashville, shallow rock</td></tr><tr><td><b>Montgomery</b></td><td>Clarksville area with mixed soils</td></tr>
+  </table></div>
+
+  <h2>Drainfield sizing in Tennessee</h2>
+  <p>A three-bedroom home at 150 gallons per bedroom produces 450 gallons per day of design flow. On sandy loam that needs roughly 750 square feet of absorption area. On clay loam it rises to about 2,250 square feet, and on clay a conventional field is usually not permitted at all. Run your own soil class through the <a href="../calculator/drainfield">drainfield calculator</a>.</p>
+
+  <h2>Maintenance and inspection</h2>
+  <p>No statewide mandated residential interval. Use the <a href="../calculator/pump-schedule">pump schedule calculator</a> to work out the interval for your tank size and household.</p>
+
+  <h2>Septic system cost in Tennessee</h2>
+  <p>Regional labour and permit costs in Tennessee run about 92% of the national baseline. Here is what typical installations land at for a three-bedroom home:</p>
+  <div class="scroll"><table class="tbl">
+    <tr><th>System type</th><th>Typical installed cost in Tennessee</th><th>When it applies</th></tr>
+    <tr><td>Conventional gravity</td><td><b>$8,300 – $14,700</b></td><td>Good soil, adequate depth to water</td></tr>
+    <tr><td>Chamber system</td><td><b>$9,100 – $16,900</b></td><td>Alternative to gravel trenches</td></tr>
+    <tr><td>Mound system</td><td><b>$15,800 – $30,900</b></td><td>Shallow water table or thin soil</td></tr>
+    <tr><td>Aerobic treatment</td><td><b>$13,300 – $26,500</b></td><td>Clay soil or small lots</td></tr>
+    <tr><td>Tank pump-out (service)</td><td><b>$290 – $600</b></td><td>Every 3–5 years</td></tr>
+  </table></div>
+  <p>Replacing an existing system costs more than these figures — old-system removal and re-permitting add to every line. The <a href="../calculator/replacement">replacement cost calculator</a> covers that case, and the <a href="../calculator/cost">cost estimator</a> adjusts all of the above for your bedroom count and soil.</p>
+
+  <h2>Questions specific to Tennessee</h2>
+  <details class="faq"><summary>Why do middle Tennessee lots fail on depth to rock?</summary><div class="body">Limestone sits close to the surface across much of the Nashville basin. The rules require a minimum depth of soil beneath the trench bottom for treatment, and a site with only 18 inches of soil over bedrock cannot provide it regardless of how the soil percs. Shallow-placed drip or LPP systems are sometimes the answer, and sometimes nothing works.</div></details><details class="faq"><summary>Does Tennessee require a soil map check?</summary><div class="body">Field evaluation governs, but published soil survey data is used as a screening tool. A parcel mapped as having severe limitations is not automatically disqualified, but expect the field evaluation to confirm the problem more often than not.</div></details>
+
+  <p class="note" style="border-left:3px solid var(--marker);background:var(--white);padding:14px 16px;margin-top:32px">
+  <b>Verify before you build.</b> The figures above are state minimums compiled for planning, drawn from Tennessee Rules Chapter 0400-48-01, Regulations to Govern Subsurface Sewage Disposal Systems. County and health district rules routinely exceed them, code text changes, and only Tennessee TDEC — Subsurface Sewage Disposal Systems or your local health department can confirm what applies to your parcel.</p>
+</div></section>
+
+<section class="band"><div class="shell narrow">
+  <div class="band-head"><h2>Get quotes in Tennessee</h2>
+  <p>Send your sizing numbers to installers who work under Tennessee rules every day.</p></div>
+  <form class="quote js-quote" action="https://formsubmit.co/bossdynamo61@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New septic lead — septicsystemcostcalculator.com">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="page_state" value="tn">
+<h3>Compare local installers</h3>
+<p>Send these numbers to licensed contractors near you and get quotes for a system in Tennessee. Free, and no obligation to hire.</p>
+<div class="field" style="margin-bottom:14px"><label style="color:#fff">What do you need?</label>
+<select name="service" required>
+  <option value="">Select service type</option>
+  <option>New installation</option>
+  <option>Full system replacement</option>
+  <option>Tank or drainfield repair</option>
+  <option>Pumping / maintenance</option>
+  <option>Inspection (buying or selling)</option>
+</select></div>
+<div class="row">
+  <input type="text" name="name" placeholder="Full name" required aria-label="Full name">
+  <input type="tel" name="phone" placeholder="Phone (10-digit US)" required aria-label="Phone" inputmode="tel" pattern="\(?[2-9][0-9]{2}\)?[\-. ]?[0-9]{3}[\-. ]?[0-9]{4}" title="Enter a 10-digit US phone number, e.g. 555-123-4567" maxlength="14">
+</div>
+<div class="row">
+  <input type="email" name="email" placeholder="Email" required aria-label="Email">
+  <input type="text" name="zip" placeholder="ZIP code" required aria-label="ZIP code" pattern="[0-9]{5}">
+</div>
+<button class="btn" type="submit">Get free quotes</button>
+<p class="fine">Your details go to installers serving your ZIP code, and to no one else.</p>
+</form>
+</div></section>
+<footer class="foot"><div class="shell">
+<div class="grid g4">
+  <div>
+    <a class="brand" href="../" style="color:#fff"><span class="mk"></span>Septic System Cost Calculator</a>
+    <p style="margin-top:14px">Tank sizing, drainfield area, install cost, and pump-out timing — worked from the code minimums in all 50 states.</p>
+  </div>
+  <div><h4>Calculators</h4><ul>
+    <li><a href="../calculator/cost">Installation cost</a></li>
+    <li><a href="../calculator/replacement">Replacement cost</a></li>
+    <li><a href="../calculator/pumping-cost">Pumping cost</a></li>
+    <li><a href="../calculator/">Tank size</a></li>
+    <li><a href="../calculator/drainfield">Drainfield size</a></li>
+    <li><a href="../calculator/pump-schedule">Pump-out schedule</a></li>
+  </ul></div>
+  <div><h4>Guides</h4><ul>
+    <li><a href="../guides/septic-basics">How septic systems work</a></li>
+    <li><a href="../guides/drainfield">Drainfields explained</a></li>
+    <li><a href="../guides/costs">What it really costs</a></li>
+    <li><a href="../guides/maintenance">Maintenance schedule</a></li>
+    <li><a href="../guides/soil-testing">Perc and soil testing</a></li>
+    <li><a href="../guides/troubleshooting">Failure symptoms</a></li>
+  </ul></div>
+  <div><h4>Reference</h4><ul>
+    <li><a href="../states/">State requirements</a></li>
+    <li><a href="../tank-size-chart">Tank size chart</a></li>
+    <li><a href="../septic-tank-dimensions">Tank dimensions</a></li>
+    <li><a href="../septic-installers-near-me">Find installers</a></li>
+    <li><a href="../faq">Questions</a></li>
+    <li><a href="../about">About</a></li>
+    <li><a href="../privacy">Privacy</a></li>
+    <li><a href="../terms">Terms</a></li>
+  </ul></div>
+</div>
+<p class="disc"><b>Estimates only.</b> This site works from published state minimums and standard engineering practice. It is not a system design and it does not replace a soil evaluation, a licensed designer, or your local health department, all of which can require more than the state minimum. Confirm every figure before you dig, order, or sign.<br><br>© 2026 Septic System Cost Calculator.</p>
+</div></footer>
+<script src="../assets/states.js"></script>
+<script src="../assets/calc.js"></script>
+</body>
+</html>

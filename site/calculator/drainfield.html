@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drainfield Size Calculator by Soil Type</title>
+<meta name="description" content="Calculate the drainfield absorption area and trench length you need, from design flow and soil texture. Covers all seven soil classes and all 50 states.">
+<base href="/calculator/">
+<link rel="canonical" href="https://septicsystemcostcalculator.com/calculator/drainfield">
+<meta property="og:title" content="Drainfield Size Calculator by Soil Type">
+<meta property="og:description" content="Calculate the drainfield absorption area and trench length you need, from design flow and soil texture. Covers all seven soil classes and all 50 states.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#102A42">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-09QK62LXNY"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-09QK62LXNY');</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+
+</head>
+<body>
+<div class="util"><div class="shell">
+<span><b>All 50 states</b> covered</span>
+<span>Sizing from published state code</span>
+<span>Free quotes, no obligation</span>
+</div></div>
+<header class="masthead"><div class="shell">
+<a class="brand" href="../"><span class="mk"></span>Septic System<br>Cost Calculator</a>
+<button class="navtoggle" aria-label="Menu" aria-expanded="false" onclick="this.classList.toggle('open');this.setAttribute('aria-expanded',this.classList.contains('open'));document.getElementById('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+<nav class="nav" id="nav">
+  <a href="../calculator/cost">Cost</a>
+  <a href="../calculator/replacement">Replacement</a>
+  <a href="../calculator/">Tank size</a>
+  <a href="../states/">States</a>
+  <a href="../guides/">Guides</a>
+  <a class="btn" href="../septic-installers-near-me">Get quotes</a>
+</nav></div></header>
+<div class="shell"><div class="crumb"><a href="../">Home</a> / <a href="../calculator/">Calculators</a> / Drainfield</div></div>
+<section class="band"><div class="shell">
+  <div class="band-head"><p class="eyebrow">Calculator</p><h1>Drainfield size calculator</h1>
+  <p>Absorption area is daily flow divided by how fast the soil accepts water. Soil texture matters more here than anything else on the site.</p></div>
+  <div class="tool">
+<div class="tool-head"><strong>Drainfield size calculator</strong><span>Absorption area</span></div>
+<div class="tool-body">
+  <p class="err" id="e-field"></p>
+  <div class="row">
+    <div class="field"><label for="dstate">State</label>
+      <select id="dstate" class="js-states"><option value="">Select a state</option></select></div>
+    <div class="field"><label for="dbeds">Bedrooms</label>
+      <div class="stepper"><button type="button" data-step="down" aria-label="Fewer">−</button>
+      <input id="dbeds" type="number" value="3" min="1" max="8" inputmode="numeric">
+      <button type="button" data-step="up" aria-label="More">+</button></div></div>
+  </div>
+  <div class="field"><label for="dsoil">Soil texture at trench depth</label>
+    <select id="dsoil" class="js-soils"></select>
+    <p class="hint">From your perc test or soil evaluation. The number in brackets is minutes per inch.</p></div>
+  <div class="field"><label for="dwidth">Trench width</label>
+    <select id="dwidth"><option value="2">2 ft</option><option value="3" selected>3 ft</option><option value="4">4 ft</option><option value="5">5 ft</option></select></div>
+  <button class="btn" id="go-field" type="button">Calculate absorption area</button>
+</div>
+<div class="spec" id="d-spec"><div class="spec-inner">
+  <div class="spec-top"><div class="figure" id="d-figure"></div></div>
+  <div class="spec-list" id="d-rows"></div>
+  <p class="note" id="d-note"></p>
+</div><form class="quote js-quote" action="https://formsubmit.co/bossdynamo61@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New septic lead — septicsystemcostcalculator.com">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<input type="hidden" name="page_state" value="">
+<h3>Compare local installers</h3>
+<p>Send these numbers to licensed contractors near you and get quotes for a drainfield of this size. Free, and no obligation to hire.</p>
+<div class="field" style="margin-bottom:14px"><label style="color:#fff">What do you need?</label>
+<select name="service" required>
+  <option value="">Select service type</option>
+  <option>New installation</option>
+  <option>Full system replacement</option>
+  <option>Tank or drainfield repair</option>
+  <option>Pumping / maintenance</option>
+  <option>Inspection (buying or selling)</option>
+</select></div>
+<div class="row">
+  <input type="text" name="name" placeholder="Full name" required aria-label="Full name">
+  <input type="tel" name="phone" placeholder="Phone (10-digit US)" required aria-label="Phone" inputmode="tel" pattern="\(?[2-9][0-9]{2}\)?[\-. ]?[0-9]{3}[\-. ]?[0-9]{4}" title="Enter a 10-digit US phone number, e.g. 555-123-4567" maxlength="14">
+</div>
+<div class="row">
+  <input type="email" name="email" placeholder="Email" required aria-label="Email">
+  <input type="text" name="zip" placeholder="ZIP code" required aria-label="ZIP code" pattern="[0-9]{5}">
+</div>
+<button class="btn" type="submit">Get free quotes</button>
+<p class="fine">Your details go to installers serving your ZIP code, and to no one else.</p>
+</form></div>
+</div></section>
+<section class="band white"><div class="shell prose">
+  <h2>Application rates by soil texture</h2>
+  <p>These are conventional trench loading rates. Your state may publish slightly different figures, and a soil evaluator's reading of the actual profile always wins.</p>
+  <div class="scroll"><table class="tbl">
+  <tr><th>Soil texture</th><th>Perc rate (min/inch)</th><th>Application rate (gpd/sq ft)</th><th>Area for 450 gpd</th></tr>
+  <tr><td>Gravel / coarse sand</td><td>Under 5</td><td><b>1.20</b></td><td>375 sq ft</td></tr><tr><td>Sand</td><td>5 – 15</td><td><b>0.80</b></td><td>562 sq ft</td></tr><tr><td>Sandy loam</td><td>16 – 30</td><td><b>0.60</b></td><td>750 sq ft</td></tr><tr><td>Loam</td><td>31 – 45</td><td><b>0.45</b></td><td>1,000 sq ft</td></tr><tr><td>Silt loam</td><td>46 – 60</td><td><b>0.30</b></td><td>1,500 sq ft</td></tr><tr><td>Clay loam</td><td>61 – 90</td><td><b>0.20</b></td><td>2,250 sq ft</td></tr><tr><td>Clay</td><td>Over 90</td><td><b>0.10</b></td><td>4,500 sq ft</td></tr>
+  </table></div>
+  <h2>Reserve area</h2>
+  <p>Most states require a second area of equal size, kept clear and undisturbed, as the replacement field. It is part of the permit even though nothing is built there. Plan the driveway, the shed and the pool around it, because a lot is only buildable if both areas fit.</p>
+  <p><a href="../guides/drainfield">Full drainfield guide →</a></p>
+</div></section>
+<footer class="foot"><div class="shell">
+<div class="grid g4">
+  <div>
+    <a class="brand" href="../" style="color:#fff"><span class="mk"></span>Septic System Cost Calculator</a>
+    <p style="margin-top:14px">Tank sizing, drainfield area, install cost, and pump-out timing — worked from the code minimums in all 50 states.</p>
+  </div>
+  <div><h4>Calculators</h4><ul>
+    <li><a href="../calculator/cost">Installation cost</a></li>
+    <li><a href="../calculator/replacement">Replacement cost</a></li>
+    <li><a href="../calculator/pumping-cost">Pumping cost</a></li>
+    <li><a href="../calculator/">Tank size</a></li>
+    <li><a href="../calculator/drainfield">Drainfield size</a></li>
+    <li><a href="../calculator/pump-schedule">Pump-out schedule</a></li>
+  </ul></div>
+  <div><h4>Guides</h4><ul>
+    <li><a href="../guides/septic-basics">How septic systems work</a></li>
+    <li><a href="../guides/drainfield">Drainfields explained</a></li>
+    <li><a href="../guides/costs">What it really costs</a></li>
+    <li><a href="../guides/maintenance">Maintenance schedule</a></li>
+    <li><a href="../guides/soil-testing">Perc and soil testing</a></li>
+    <li><a href="../guides/troubleshooting">Failure symptoms</a></li>
+  </ul></div>
+  <div><h4>Reference</h4><ul>
+    <li><a href="../states/">State requirements</a></li>
+    <li><a href="../tank-size-chart">Tank size chart</a></li>
+    <li><a href="../septic-tank-dimensions">Tank dimensions</a></li>
+    <li><a href="../septic-installers-near-me">Find installers</a></li>
+    <li><a href="../faq">Questions</a></li>
+    <li><a href="../about">About</a></li>
+    <li><a href="../privacy">Privacy</a></li>
+    <li><a href="../terms">Terms</a></li>
+  </ul></div>
+</div>
+<p class="disc"><b>Estimates only.</b> This site works from published state minimums and standard engineering practice. It is not a system design and it does not replace a soil evaluation, a licensed designer, or your local health department, all of which can require more than the state minimum. Confirm every figure before you dig, order, or sign.<br><br>© 2026 Septic System Cost Calculator.</p>
+</div></footer>
+<script src="../assets/states.js"></script>
+<script src="../assets/calc.js"></script>
+</body>
+</html>
