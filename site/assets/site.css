@@ -305,3 +305,5 @@ details.faq .body{padding:16px 20px;color:var(--ink);font-size:16px}
   .figure{color:#000}
   .note{border-left-color:#000}
 }
+/* ---------- eyebrow color fix ---------- */
+.band-head p.eyebrow{color:#ffffff !important}
