@@ -54,6 +54,8 @@ def page(path, title, desc, body, depth=0, extra_head="", schema=None):
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#102A42">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.svg">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-09QK62LXNY"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-09QK62LXNY');</script>
 
